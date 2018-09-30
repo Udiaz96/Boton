@@ -8,11 +8,11 @@
 </head>
 <body>
     <h1 id="h1Text">Hola Mundo!</h1>
-    <button id="but"></button>
+    <button id="but">Click</button>
     <script>
         var bu = document.getElementById("but");
         bu.addEventListener("click",function(){
-            document.getElementById("h1Text").value("Hola Uri");
+            document.getElementById("h1Text").innerHTML = "Hola Uri!" ;            
         });
     </script>
 </body>
