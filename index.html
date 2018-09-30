@@ -9,10 +9,16 @@
 <body>
     <h1 id="h1Text">Hola Mundo!</h1>
     <button id="but">Click</button>
+    <button id="but2">Click 2</button>
     <script>
         var bu = document.getElementById("but");
         bu.addEventListener("click",function(){
             document.getElementById("h1Text").innerHTML = "Hola Uri!" ;            
+        });
+        var bu2 = document.getElementById("but2");
+        bu2.addEventListener("click",function()
+        {
+            document.getElementById("h1Text").innerHTML = "Hola Tat!" ;
         });
     </script>
 </body>
