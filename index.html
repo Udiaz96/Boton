@@ -7,12 +7,12 @@
     <title>Prueba Git</title>
 </head>
 <body>
-    <h1>Hola Mundo!</h1>
+    <h1 id="h1Text">Hola Mundo!</h1>
     <button id="but"></button>
     <script>
         var bu = document.getElementById("but");
         bu.addEventListener("click",function(){
-            aler("clicked");
+            document.getElementById("h1Text").value("Hola Uri");
         });
     </script>
 </body>
